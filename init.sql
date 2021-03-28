@@ -6,7 +6,7 @@ CREATE TABLE public.history
 (
     grow_box_record_id integer NOT NULL,
     grow_box_id integer NOT NULL,
-    date timestamp without time zone NOT NULL,
+    date timestamp with time zone NOT NULL,
     temperature integer,
     humidity integer,
     co2 integer,
